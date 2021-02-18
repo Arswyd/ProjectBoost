@@ -14367,6 +14367,7 @@ GameObject:
   - component: {fileID: 8186975998717129359}
   - component: {fileID: 636123166}
   - component: {fileID: 4586033751117295612}
+  - component: {fileID: 176703669}
   m_Layer: 0
   m_Name: Missle
   m_TagString: Untagged
@@ -14543,6 +14544,18 @@ MonoBehaviour:
   levelComplete: {fileID: 8300000, guid: f7d3928c8203264428ce7e9b0a4521a8, type: 3}
   deathParticles: {fileID: 525773120}
   levelCompleteParticles: {fileID: 1049743390}
+--- !u!114 &176703669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3023572782959644846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1db075888fc7d8e4ab0c811e326f0036, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6421332935467499236
 GameObject:
   m_ObjectHideFlags: 0

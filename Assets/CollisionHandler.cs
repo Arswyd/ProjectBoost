@@ -76,7 +76,7 @@ public class CollisionHandler : MonoBehaviour
     {
         isTransitioning = true;
         audioSource.Stop();
-        audioSource.PlayOneShot(levelComplete);
+        audioSource.PlayOneShot(levelComplete, 0.5f);
         levelCompleteParticles.Play();
         GetComponent<Movement>().enabled = false;
         Invoke("LoadNextLevel", levelLoadDelay); // Invoke calls a method after a certain time (declared in seconds)
@@ -86,7 +86,7 @@ public class CollisionHandler : MonoBehaviour
     {
         isTransitioning = true;
         audioSource.Stop();
-        audioSource.PlayOneShot(deathExplosion);
+        audioSource.PlayOneShot(deathExplosion, 0.5f);
         deathParticles.Play();
         GetComponent<Movement>().enabled = false;
         Invoke("ReloadLevel", levelLoadDelay);
