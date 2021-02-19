@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f844acfbb002be042a0f0483273d52cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementVector: {x: 0, y: 0, z: 2}
-  period: 4
+  movementVector: {x: 0, y: 0, z: 5}
+  period: 5
 --- !u!114 &447242062
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54,7 +54,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f844acfbb002be042a0f0483273d52cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementVector: {x: 0, y: 0, z: 2}
+  movementVector: {x: 0, y: 0, z: 5}
   period: 4
 --- !u!114 &1815741062
 MonoBehaviour:
@@ -82,7 +82,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f844acfbb002be042a0f0483273d52cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementVector: {x: 0, y: 0, z: 2}
+  movementVector: {x: 0, y: 0, z: 5}
   period: 3
 --- !u!114 &240618834
 MonoBehaviour:
@@ -96,7 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f844acfbb002be042a0f0483273d52cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementVector: {x: 0, y: 0, z: 2}
+  movementVector: {x: 0, y: 0, z: 5}
   period: 5
 --- !u!114 &856288153
 MonoBehaviour:

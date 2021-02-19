@@ -50,8 +50,6 @@ public class Movement : MonoBehaviour
 
     private void ProcessRotation()
     {
-        rigidBody.freezeRotation = true; // take manual control of rotation
-
         if (Input.GetKey(KeyCode.LeftArrow))
         {
             ApplyRotation(rcsThrust);
@@ -60,8 +58,6 @@ public class Movement : MonoBehaviour
         {
             ApplyRotation(-rcsThrust);
         }
-
-        rigidBody.freezeRotation = false; // resumes phisics rotation
     }
 
     private void ApplyThrust()
@@ -85,6 +81,8 @@ public class Movement : MonoBehaviour
 
     private void ApplyRotation(float rotationThisFrame)
     {
+        rigidBody.freezeRotation = true; // take manual control of rotation
         transform.Rotate(Vector3.forward * rotationThisFrame * Time.deltaTime);
+        rigidBody.freezeRotation = false; // resumes phisics rotation
     }
 }

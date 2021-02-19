@@ -29,7 +29,10 @@ public class CollisionHandler : MonoBehaviour
 
     void Update()
     {
-        RespondToDebugKeys();
+        if (Debug.isDebugBuild) // only works if debug build
+        {
+            RespondToDebugKeys();
+        }
     }
 
     private void RespondToDebugKeys()

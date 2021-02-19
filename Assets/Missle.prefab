@@ -14524,7 +14524,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rcsThrust: 300
-  mainThrust: 1500
+  mainThrust: 1200
   mainEngine: {fileID: 8300000, guid: 7de500351d152434ba6351e542e85185, type: 3}
   mainEngineParticles: {fileID: 825604735}
 --- !u!114 &4586033751117295612
@@ -14606,7 +14606,7 @@ MeshRenderer:
   m_GameObject: {fileID: 6421332935467499236}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -14699,7 +14699,7 @@ MeshRenderer:
   m_GameObject: {fileID: 6484148917333241121}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -14792,7 +14792,7 @@ MeshRenderer:
   m_GameObject: {fileID: 6619517729161433583}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -14885,7 +14885,7 @@ MeshRenderer:
   m_GameObject: {fileID: 7669989390316681078}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -14978,7 +14978,7 @@ MeshRenderer:
   m_GameObject: {fileID: 7756773879898391163}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -15071,7 +15071,7 @@ MeshRenderer:
   m_GameObject: {fileID: 8951585747556065072}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
